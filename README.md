@@ -1,5 +1,5 @@
 # PasswordQualityChecker
-Mengecek Tingkat kerumitan Password dibantu dengan JQuerry untuk animasi pada bar progress.
+Mengecek Tingkat kerumitan Password dibantu dengan JQuerry untuk animasi pada bar progres.
 
 # Fitur
  | Tingkat Kerumitan                                                              | Kategori |
