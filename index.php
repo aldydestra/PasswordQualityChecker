@@ -15,16 +15,16 @@
             var balok = document.getElementById("balok");
             var no = 0;
             if (pass != "") {
-                // jika panjang password melebihi 6
+                // jika panjang password Kurang dari atau sama dengan 6 karakter
                 if (pass.length <= 6) no = 1;
 
-                // jika panjang password melebihi 6 dan harus berisi campuran alfabet, angka dan karakter spesial dalam bentuk low case
+                // jika panjang password Lebih dari 6 karakter dan mengandung huruf kecil atau nomor atau karakter spesial
                 if (pass.length > 6 && (pass.match(/[a-z]/) || pass.match(/\d+/) || pass.match(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/))) no = 2;
 
-                // jika panjang password melebihi 6 dan harus berisi campuran alfabet, angka dan karakter spesial
+                // jika panjang password Lebih dari 6 karakter dan masing-masing mengandung huruf, angka, dan karakter spesia
                 if (pass.length > 6 && ((pass.match(/[a-z]/) && pass.match(/\d+/)) || (pass.match(/\d+/) && pass.match(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/)) || (pass.match(/[a-z]/) && pass.match(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/)))) no = 3;
 
-                // jika panjang password melebihi 6 dan harus berisi campuran alfabet, angka dan karakter spesial
+                // jika panjang password Lebih dari 6 karakter dan harus mengandung huruf, angka dan karakter spesial
                 if (pass.length > 6 && pass.match(/[a-z]/) && pass.match(/\d+/) && pass.match(/.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/)) no = 4;
 
                 if (no == 1) {
