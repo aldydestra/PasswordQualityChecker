@@ -9,7 +9,7 @@ Mengecek Tingkat kerumitan Password dibantu dengan JQuerry untuk animasi pada ba
 | Lebih dari 6 karakter dan masing-masing mengandung huruf, angka, dan karakter spesial                                             | Cukup Rumit |
 | Lebih dari 6 karakter dan harus mengandung huruf, angka dan karakter spesial                                                | Rumit |
 
-#Kredit
+# Kredit
 ```bash
 https://jquery.com/
 ```
