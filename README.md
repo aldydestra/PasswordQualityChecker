@@ -1,4 +1,4 @@
-# PasswordQualityChecker
+# PasswordStrengthChecker
 Mengecek Tingkat kerumitan Password dibantu dengan JQuerry untuk animasi pada bar progres.
 
 # Fitur
