@@ -1,15 +1,15 @@
-# PasswordStrengthChecker
-Mengecek Tingkat kerumitan Password dibantu dengan JQuerry untuk animasi pada bar progres.
+## PasswordStrengthChecker
+Checking the complexity of your password.
 
-# Fitur
- | Tingkat Kerumitan                                                              | Kategori |
+## Features
+ | Complexity Level                                                              | Category |
 |---------------------------------------------------------------|---|
-| Kurang dari atau sama dengan 6 karakter                                               | Seederhana |
-| Lebih dari 6 karakter dan mengandung huruf kecil atau nomor atau karakter spesial                                         | Mudah |
-| Lebih dari 6 karakter dan masing-masing mengandung huruf, angka, dan karakter spesial                                             | Cukup Rumit |
-| Lebih dari 6 karakter dan harus mengandung huruf, angka dan karakter spesial                                                | Rumit |
+| Less than or equal to 6 characters                                               | Plain |
+| More than 6 characters and contains lowercase letters or numbers or special characters                                         | Simple |
+| More than 6 characters and each contains letters, numbers and special characters                                             | Fairly Complex |
+| More than 6 characters and must contain letters, numbers and special characters                                                | Complex |
 
-# Kredit
+## Credit
 ```bash
 https://jquery.com/
 ```
